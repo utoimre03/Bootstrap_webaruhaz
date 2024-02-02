@@ -16,14 +16,42 @@
             <h3>Webáruház admin - Ütő Imre</h3>
         </header>
         <nav>
-            <ul class="nav justify-content-end">
+            <ul class="nav justify-content-end navbar navbar-expand-sm bg-light">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Publikus</a>
                 </li>
             </ul>
         </nav>
         <article>
-            <p>Termék</p>
+          <form action="">
+            <fieldset>
+              <!-- kereten lévő szöveg -->
+              <legend>Űrlap</legend>
+              <div class="mb-3 mt-3">
+                <label for="neve">Termék: </label>
+                <input type="text" id="neve" name="nev" value="Póló neve" size="10"><br>
+              </div>
+              <!-- label for és input egyezzen! -->
+              <div class="mb-3">
+                <label for="fajl"></label>
+                <input type="file" id="fajl" name="film" value="" size=""><br>
+              </div>
+              <div class="mb-3">
+                <label for="filmek_szama">Méret: </label>
+                <input class="form-check-input" type="checkbox" name="remember"> S
+                <input class="form-check-input" type="checkbox" name="remember"> M
+                <input class="form-check-input" type="checkbox" name="remember"> L
+                <input class="form-check-input" type="checkbox" name="remember"> XL
+                <input class="form-check-input" type="checkbox" name="remember"> XXL<br>
+              </div>
+              <div class="mb-3">
+                <label for="comment">Leírás:</label>
+                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Küldés</button>
+            </fieldset>
+          </form>
+          <p>Termékek:</p>
             <table class="table table-bordered">
                 <thead>
                   <tr>
@@ -78,7 +106,7 @@
                         <img src="kepek/polo4.jpg" alt="" width="150px">
                     </td>
                     <td>S, M, L, XL, XXL</td>
-                    <td></td>
+                    <td>6990 Ft</td>
                     <td>
                       <p>Népszerű pólómárka, ami már nálunk is elérhető!<br>A hosszított fazon és a vékony, 146 g/m2 anyagvastagság garantálja a kényelmes viseletet. 100% gyűrűs fonású fésült pamutból készül, válltól vállig megerősített és beszegett nyakkivágással. Emellett a dupla tűzésű karkivágás és derékrész biztosítja a kiváló minőséget és formatartást.</p>
                     </td>
@@ -90,7 +118,7 @@
                         <img src="kepek/polo5.jpg" alt="" width="150px">
                     </td>
                     <td>S, M, L, XL, XXL</td>
-                    <td></td>
+                    <td>6990 Ft</td>
                     <td>
                       <p>A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére.<br>Ez azért fontos, mert a magas hőfokú, száraz környezetben a centrifugális erő mellett megsérülne a minta.</p>
                     </td>
