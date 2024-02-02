@@ -13,11 +13,15 @@
     <title>Webáruház</title>
 </head>
 <body>
-    <main class="container-fluid">
-        <header>
+    <main class="container-fluid row">
+        <header class="col-lg-12">
+          
             <h1>Webáruház</h1>
+
         </header>
-        <nav class="navbar navbar-expand-sm bg-light">
+
+        <nav class="navbar navbar-expand-sm bg-light col-lg-12">
+
             <div class="container-fluid">
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -31,66 +35,150 @@
                 </li>
               </ul>
             </div>
+
           </nav>
 
 
-        <aside>
+        <aside class="col-lg-2">
+
             <h6>Keresési feltételek</h6>
             <p>A termék neve:</p>
             <div class="form-outline" data-mdb-input-init>
-              <input type="search" id="form1" class="form-control" placeholder="A termék neve" aria-label="Search" />
+              <input type="search" id="form1" class="form-control" placeholder="A termék neve" aria-label="Search">
             </div>
             <p>Szűrés ár szerint:</p>
             <div class="range" data-mdb-range-init>
-              <input type="range" class="form-range" id="customRange1" />
+              <input type="range" class="form-range" id="customRange1">
             </div>
+
         </aside>
 
 
-        <article class="row">
-            <div class="container col-lg-6">
-                <h4 class="card-title text-success">Retro Gamer férfi póló</h4>
-                <div class="card" style="width:400px">
-                  <img class="card-img-top" src="kepek/polo1.jpg" alt="polo1" style="width:100%">
-                  <div class="card-body">
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">S</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">M</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">L</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">XL</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">XXL</a>
-                    <p class="card-text">A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p>
-                  </div>
-                    <p>Ár: 6990</p>
-                    <a href="#" class="btn btn-primary btn-success text-warning border-3 border-dark rounded-0">Kosárba</a>
-                </div>
-                <br>
-            </div>
+        <article class="row col-lg-8 gap">
 
-            <div class="container col-lg-6">
-                <h4 class="card-title text-success">Retro Gamer férfi póló</h4>
-                <div class="card" style="width:400px">
-                  <img class="card-img-top" src="kepek/polo1.jpg" alt="polo1" style="width:100%">
-                  <div class="card-body">
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">S</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">M</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">L</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">XL</a>
-                    <a href="#" type="button" class="btn btn-sm btn-light border-2 border-dark rounded-0">XXL</a>
-                    <p class="card-text">A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p>
+              <div class="card col-lg-4">
+                  <div class="card-header">
+                    <h4 class="text-success">Retro Gamer férfi póló</h4>
                   </div>
-                    <p>Ár: 6990</p>
-                    <a href="#" class="btn btn-primary btn-success text-warning border-3 border-dark rounded-0">Kosárba</a>
+
+                  <div class="card-body">
+                    <img class="card-img-top img-thumbnail" src="kepek/polo1.jpg" alt="polo1" >
+                    <button class="btn btn-sm btn-light border-2 border-dark rounded-0">S</button>
+                    <button class="btn btn-sm btn-light border-2 border-dark rounded-0">M</button>
+                    <button class="btn btn-sm btn-light border-2 border-dark rounded-0">L</button>
+                    <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XL</button>
+                    <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XXL</button>
+                    <p class="card-text">A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ... Ez azért fontos, mert a magas hőfokú, száraz környezetben a centrifugális erő mellett megsérülne a minta.</p>
+                  </div>
+
+                  <div class="card-footer ">
+                    <p class="float-start">Ár: 6990</p>
+                    <a href="#" class="btn btn-primary btn-success text-warning border-3 border-dark rounded-0 float-end w-50">Kosárba</a>
+                  </div>
+
+              </div>
+
+              <div class="card col-lg-4">
+                <div class="card-header">
+                  <h4 class="text-success">Túléltem még egy meetinget</h4>
                 </div>
-                <br>
-            </div>
+
+                <div class="card-body">
+                  <img class="card-img-top img-thumbnail" src="kepek/polo2.jpg" alt="polo2" >
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">S</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">M</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">L</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XL</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XXL</button>
+                  <p class="card-text">Legnépszerűbb prémium pólónk, ami garantáltan a kedvenced lesz! ... Simogatni-valóan puha anyag, rövid ujj és testhez állóbb fazon a stílusos és kényelmes megjelenésért. Ha szereted a laza viseletet, rendelj egy mérettel nagyobbat!</p>
+                </div>
+
+                <div class="card-footer ">
+                  <p class="float-start">Ár: 6990</p>
+                  <a href="#" class="btn btn-primary btn-success text-warning border-3 border-dark rounded-0 float-end w-50">Kosárba</a>
+                </div>
+              </div>
+        
+
+              <div class="card col-lg-4">
+                <div class="card-header">
+                  <h4 class="text-success">Az éveim múlásával</h4>
+                </div>
+
+                <div class="card-body">
+                  <img class="card-img-top img-thumbnail" src="kepek/polo3.jpg" alt="polo3" >
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">S</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">M</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">L</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XL</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XXL</button>
+                  <p class="card-text">Vicces póló , vicces ajándék, szülinapi ajándék! ... Divatos póló, akár hétköznapi viseletként is megállja a helyét , nagyon jó minőségű anyaga miatt. Az általunk gyártott pólóknál nem kell attól tartanod, hogy kinyúlik az anyag, kifakul, vagy berepedezik a minta. Anyaga 100% Pamut Mérettáblázatot a képek között találsz. 25 féle szín közül választhatsz!</p>
+                </div>
+
+                <div class="card-footer ">
+                  <p class="float-start">Ár: 6990</p>
+                  <a href="#" class="btn btn-primary btn-success text-warning border-3 border-dark rounded-0 float-end w-50">Kosárba</a>
+                </div>
+              </div>
+
+
+              <div class="card col-lg-4">
+                <div class="card-header">
+                  <h4 class="text-success">I hate...</h4>
+                </div>
+
+                <div class="card-body">
+                  <img class="card-img-top img-thumbnail" src="kepek/polo4.jpg" alt="polo4" >
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">S</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">M</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">L</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XL</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XXL</button>
+                  <p class="card-text">Népszerű pólómárka, ami már nálunk is elérhető ... A hosszított fazon és a vékony, 146 g/m2 anyagvastagság garantálja a kényelmes viseletet. 100% gyűrűs fonású fésült pamutból készül, válltól vállig megerősített és beszegett nyakkivágással. Emellett a dupla tűzésű karkivágás és derékrész biztosítja a kiváló minőséget és formatartást.</p>
+                </div>
+
+                <div class="card-footer ">
+                  <p class="float-start">Ár: 6990</p>
+                  <a href="#" class="btn btn-primary btn-success text-warning border-3 border-dark rounded-0 float-end w-50">Kosárba</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-4">
+                <div class="card-header">
+                  <h4 class="text-success">Képzeld el az életet</h4>
+                </div>
+
+                <div class="card-body">
+                  <img class="card-img-top img-thumbnail" src="kepek/polo5.jpg" alt="polo5" >
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">S</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">M</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">L</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XL</button>
+                  <button class="btn btn-sm btn-light border-2 border-dark rounded-0">XXL</button>
+                  <p class="card-text">A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ... Ez azért fontos, mert a magas hőfokú, száraz környezetben a centrifugális erő mellett megsérülne a minta.</p>
+                </div>
+
+                <div class="card-footer ">
+                  <p class="float-start">Ár: 6990</p>
+                  <a href="#" class="btn btn-primary btn-success text-warning border-3 border-dark rounded-0 float-end w-50">Kosárba</a>
+                </div>
+              </div>
         </article>
 
-        <aside>
+        <aside class="col-lg-2">
+          <h3>Kapcsolódó cikkek</h3>
+            <ol>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quos illum ut iure.</li>
+              <li>Sequi impedit harum perspiciatis! Eos doloremque ipsa itaque, laborum perferendis dicta nam maxime dolor eveniet ullam aliquam architecto in assumenda?</li>
+              <li>Numquam veritatis eos ea dolor laborum reprehenderit ad ut sapiente iste quasi at deserunt eveniet, qui, optio, eligendi corporis. Quas, perferendis vitae.</li>
+            </ol>
 
-        </aside>
+          <h3>Kapcsolódó cikk</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex adipisci rerum, corporis consequuntur doloribus quo tempore amet optio numquam recusandae obcaecati, et eveniet. Ea et sequi a maxime aliquid ipsa.
+          Est optio sed ipsam, cupiditate perferendis mollitia maxime excepturi animi doloremque ullam magnam, esse odit, vitae culpa deserunt in a? Nihil, explicabo voluptatum quia velit quo quaerat atque deserunt est?</p>
+          </aside>
 
-        <footer>
-
+        <footer class="col-lg-12">
         </footer>
     </main>
 </body>
